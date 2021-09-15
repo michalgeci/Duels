@@ -305,6 +305,11 @@ document.body.onkeydown = (e) => {
   }
 }
 
+document.body.ontouchstart = (e) => {
+  game.t1 = performance.now()
+  onSpacePressed()
+}
+
 // Listener page load
 document.addEventListener('DOMContentLoaded', onPageLoad, false)
 
