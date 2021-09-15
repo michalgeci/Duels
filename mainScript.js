@@ -86,7 +86,7 @@ let onPageLoad = () => {
       urlElement.innerHTML = guestUrl
     } else {
       guiHelp.removeGuy1()
-      urlElement.innerHTML = "Host left. :( ... <a href=" + location.origin + ">Wanna be the host? :)</a>"
+      urlElement.innerHTML = "Host left. :( ... <a href=" + location.origin + location.pathname + ">Wanna be the host? :)</a>"
     }
   }
 
