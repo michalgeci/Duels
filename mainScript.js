@@ -154,6 +154,7 @@ let onPageLoad = () => {
       additionalInfo.innerHTML =
         "Host is unavailable. :( ... <a href=" +
         location.origin +
+        location.pathname +
         ">Wanna be the host? :)</a>";
     }
   });
