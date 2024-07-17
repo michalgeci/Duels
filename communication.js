@@ -6,7 +6,7 @@ export class Communication {
     // Observe methods (SHARED)
     this.onRestart = () => {}
     this.onReady = () => {}
-    this.onRecieveEarly = () => {}
+    this.onReceiveEarly = () => {}
     this.onOpponentReactionTime = () => {}
     this.onGoodbye = () => {}
 
@@ -64,7 +64,7 @@ export class Communication {
       }
 
       if (data === "early") {
-        this.onRecieveEarly()
+        this.onReceiveEarly()
       }
 
       if (data === "goodbye") {
